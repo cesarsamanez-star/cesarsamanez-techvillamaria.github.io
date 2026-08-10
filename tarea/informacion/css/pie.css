@@ -1,0 +1,46 @@
+#pie {
+    grid-area: pie;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    padding: 40px 0 20px;
+    background-color: black;
+}
+
+#pie img {
+    width: 140px;
+    margin-right: 40px;
+}
+
+.menu-horizontal {
+    display: flex;
+    gap: 20px;
+}
+
+#menu2 h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+#menu2 li {
+    list-style: none;
+}
+
+#menu2 a {
+    display: block;
+    line-height: 2;
+    text-decoration: none;
+    color: white;
+}
+
+#copy {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+#copy p {
+    color: #0056b3;
+    font-size: 12px;
+}
